@@ -13,7 +13,7 @@ body {
                       url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat,
                        no-repeat;
-    background-position: bottom 25vh right 50vw,
+    background-position: bottom -55vh right 50vw,
                          top 40vh left 46vw;;
 }
 
