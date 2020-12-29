@@ -1,0 +1,95 @@
+/* Global Layout Setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg),
+                      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,
+                       no-repeat;
+    background-position: bottom 25vh right 50vw,
+                         top 40vh left 46vw;;
+}
+
+/* Section Styles */
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 350px;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+}
+
+.profile-img {
+   background-image: url(images/bg-pattern-card.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 150px;
+}
+
+.profile-img img {
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    margin-top: 5.7rem;
+}
+
+.profile {
+    margin-top: 5rem;
+}
+
+
+.intro {
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.addr {
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid hsl(0, 0%, 86%);
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
